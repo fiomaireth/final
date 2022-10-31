@@ -1,0 +1,24 @@
+
+h2{
+    font: italic 2.2em "Fira Sans", serif;
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+}
+h4{
+    font: italic 2.2em "Fira Sans", serif;
+    text-transform: uppercase;
+    color: wheat;
+}
+p,li{
+    font: 1.2em "Fira Sans", serif;
+    color: wheat;
+    text-indent: 1em;
+    text-align: left;
+}
+
+.conteiner{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+

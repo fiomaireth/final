@@ -1,0 +1,112 @@
+:root{
+    --pink:#b63e8e;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+body{
+    background: white;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(97, 96, 96, 0.5);
+}
+
+.heading span{
+    color:var(--pink);
+    
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:rgb(173, 81, 124);
+    color:white;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.btn:hover{
+    background:var(--pink);
+}
+
+header{
+    height: 80px;
+    position: fixed;
+    top:0; left:0; right:0;
+    background:rgb(173, 81, 124);
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(189, 19, 113, 0.1);
+}
+
+header .logo{
+    font-size: 25px;
+    color:white;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color:var(--pink);
+}
+
+header .navbar a{
+    font-size: 20px;
+    padding:0 1.5rem;
+    color:white;
+}
+
+#dropdown-item{
+    font-size: 20px;
+    padding:0 1.5rem;
+    color:black;
+}
+
+header .navbar a:hover{
+    color:gray;
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color:rgb(252, 249, 249);
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color:var(--pink);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:rgb(245, 241, 241);
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
